@@ -57,30 +57,35 @@ We will load the cryptocurrency market data, normalize it using StandardScaler, 
 
 To determine the optimal value for 'k' (number of clusters) using the original data, we will use the elbow method. We will visualize the inertia values for different 'k' values to find the best number of clusters.
 
+![Elbow](Starter_Code/Resources/elbowcurve.PNG)
+
 ---
 
 ## Clustering Cryptocurrencies with K-means
 
 We will cluster cryptocurrencies using K-means with the best 'k' value obtained from the previous step. We will visualize the results using scatter plots and identify the impact of clustering.
 
+![Scatter](Starter_Code/Resources/scatter.PNG)
+
 ---
 
 ## Optimizing Clusters with Principal Component Analysis (PCA)
 
 PCA will be applied to reduce the feature dimensions. We will calculate the total explained variance of the three principal components and create a new DataFrame with PCA data.
-
+![PCA](Starter_Code/Resources/pca.PNG)
 ---
 
 ## Finding the Best Value for k Using PCA Data
 
 Similar to the previous step, we will find the best 'k' value using the PCA data. The elbow method will be employed to determine the optimal number of clusters for PCA-transformed data.
+![ElbowPCA](Starter_Code/Resources/elbowpca.PNG)
 
 ---
 
 ## Clustering Cryptocurrencies with K-means Using PCA Data
 
 We will use K-means clustering with the best 'k' value obtained from PCA data. The results will be visualized using scatter plots to analyze the impact of using PCA for clustering.
-
+![ScatterPCA](Starter_Code/Resources/scatterpca.PNG)
 ---
 
 ## Visualizing and Comparing Results
